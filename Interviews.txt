@@ -1,0 +1,21 @@
+﻿-Route có thể gọi view và model được không ?
+-Sự khác biệt giữa Route và Controller?
+-Trong Laravel có mấy cách truy vấn?
+-Nêu sự khác nhau giữa Query builder và Eloquent ORM
+-OOP,dependency injection (nhớ kỹ)
+
+-Kiến thức cơ bản PHP,OOP,...
+-OOP là gì? MVC abstract class, interface , MySQL, SQL cơ bản và nâng cao: Indexs,transaction,
+-Laravel: cơ bản ,Eloquents,..
+*Thứ tự:
+-PHP->DL->Laravel? 
+-Tại sao chọn Laravel?
+-Điểm mạnh yếu Laravel?
+-Bạn đã bh Custom lại Laravel chưa ?
+-Phiên bản mới nhất là bản nào? có gì mới ?Bạn đã dùng Laravel bản mấy?
+-Sự khác biệt giữa các bản bạn đang dùng và  bản mới nhất?
+-Có nên thường xuyên Update bản mới nhất hay code chắc 1 phien bản?
+-Có sẵn sàng học ngôn ngữ mới hay không? cần bao lâu để làm việc được?
+-Điều gì khiến bạn muốn làm việc ở đây? Mong muốn tương lai là gì? Có câu hỏi gì không?
+-Laravel nghĩa là gì? Ai tạo ra? Mục đích là gì? Phân tích ý nghĩa sự hình thành và phát triển của Laravel
+-Tầm quan trọng của laravel trong đời sống hiện nay

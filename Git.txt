@@ -1,0 +1,69 @@
+﻿GitHub
+-Quick setup:
+	git clone https://github.com/phamhungson/oop.git
+- create a new repository on the command line
+	echo "nội dung file readme" >> README.md // tạo file readme
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/phamhungson/oop.git
+	git push -u origin master
+-push an existing repository from the command line
+	git remote add orgin https://github.com/phamhungson/oop.git
+	git push -u origin master
+
+-Tracked: git add tên_file
+-Untracked: git rm tên_file
+-Git log-lịch sử commit: git log (git log -1:commit lần gần nhất)
+-diff :
+	git log -p 
+	git log -p -1
+    +option khác:
+	--since, --after: Xem các lần commit kể từ ngày nhất định.
+	--until: Xem các lần commit trước từ ngày nhất định.
+	--author: Xem các lần commit của một người nào đó.
+	--grep: Lọc các chuỗi trong log và in ra.
+-Lọc log = --pretty: git log --pretty="%tag" 
+			%h – Abbreviated commit hash
+			%T – Tree hash
+			%t – Abbreviated tree hash
+			%P – Parent hashes
+			%p – Abbreviated parent hashes
+			%an – Author name
+			%ae – Author e-mail
+			%ad – Author date (format respects the –date=option)
+			%ar – Author date, relative
+			%cn – Committer name
+			%ce – Committer email
+			%cd – Committer date
+			%cr – Committer date, relative
+			%s – Subject
+-Undo commnit:git commit --amend
+-Remove file from Starging Area: git reset HEAD tên_file
+-Đánh dấu commit với tag:
++Lightweight Tag:
+	git tag //xem list tag
+	git tag name_tag // init
+	git show name_tag //show thông tin mỗi lần commit
++Annotated Tag:
+	git tag -a name_tag -m"comment"
+	git show tag
++Add tag for olds commit:
+	git log --pretty=oneline //lấy checksum
+	git tag -a checksum -m"comment"
+  push tag: git push --tag
+  nhập tag vào branch: git checkout -b name_branch name_tag
+		      git checkout master //chuyển về master
+-Tạo branch: git branch branch_name
+-Checkout branch: git checkout branch_name
+-Set up push: git push --set-upstream origin branch_name
+
+-gộp dữ liệu từ 1 branch 
+	git checkout master
+	git merge branch_name
+-Delete branch:
+	git branch -d branch_name
+
+
+ 
+		
